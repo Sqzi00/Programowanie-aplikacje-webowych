@@ -1,5 +1,5 @@
 export class App {
-    opwApiKey = '50d53005c0fd5f556bb4ef15224c4209'; // zmienic klucz //
+    opwApiKey = '34cgc0d52d0ff579adhhe6c0b4776ee';
     constructor() {
         this.getCityInfo('zakopane')
     }
