@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first</title>
+    <title>Lab1calc</title>
 </head>
 <body>
    
-    <div class="data-imputs">
-<input type="tekst" id="input1">
-<input type="tekst" id="input2">
-<input type="tekst" id="input3">
-<input type="tekst" id="input4">
- </div>
-    <div class="show-inputs">
-        <input type="text" id="sum">
-        <input type="text" id="avg">
-        <input type="text" id="min">
-        <input type="text" id="max">
+    <div class="inputData">
+        <label>Numbers:</label>
+        <input type="text" id="numberOfInputs" placeholder="Number"></br> </br>
     </div>
-    
-    
-    
-    
+    <div id="inputsContainer">
+    </div>
+
+
+    <div class="statsData">
+        <label id="sumLabel" class="descLabel">Sum: </label>
+        <input type="text" id="sumInput" class="calcOutput"> </br>
+        <label id="avgLabel" class="descLabel">Avg: </label>
+        <input type="text" id="avgInput" class="calcOutput"> </br>
+        <label id="minLabel" class="descLabel">Min: </label>
+        <input type="text" id="minInput" class="calcOutput"> </br>
+        <label id="maxLabel" class="descLabel">Max: </label>
+        <input type="text" id="maxInput" class="calcOutput"> </br>
+    </div>
+
     <script>"index.js"</script>
 </body>
 </html>
